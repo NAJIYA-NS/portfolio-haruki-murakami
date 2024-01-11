@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    height: 50px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    color: white;
+    justify-content: space-between;
+    margin: 20px;
+    font-size: larger;
+    text-decoration: none;
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+    text-shadow: 2px 6px 8px white;
+}
+.background_image{
+    width: 100%;
+
+}
+.overlay{
+    position: absolute;
+    top: 45%;
+    left: 70%;
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+span{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+.main{
+    font-size: 30px;
+    display: flex;
+    position: absolute;
+    color: aliceblue;
+}
+.main h1{
+    display: inline;
+}
+.overlay2{
+    position: absolute;
+    top: 65%;
+    left: 71%;
+    color: white;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image{
+    display: flex;
+    margin-bottom: 0px;
+   
+}
+.image img{
+    margin-top: -4px;
+    top: -3;
+    width: 150%;
+    height: 500px;
+    
+}
+.image p{
+    text-align: justify;
+    margin: 75px;
+    margin-top: 10px;
+    text-shadow: 2px 6px 8px rgb(255, 190, 190);
+    
+    
+}
+.image h1{
+    color: black;
+    text-align: start;
+    
+    margin-left: 75px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-shadow: 2px 6px 8px gray;
+}
+.book1{
+    display: flex;
+    background-color: #5a5936;
+    width: 45%;
+    margin-left: 15px;
+    height: 270px;   
+}
+.book1 img{
+    height: 230px;
+    width: 180px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#works h1{
+    color:black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding: 15px;
+    text-shadow: 2px 4px 5px gray;
+}
+#works{
+    top: 0;    
+}
+.desc1{
+    color: #ecebc6;
+    text-align: justify;
+    margin-left: 20px;
+}
+.BOOKA{
+    display: flex;
+    justify-content: space-around;
+
+}
+.book2{
+    display: flex;
+    background-color: #98b0b0;
+    width: 45%;
+    margin-left: 15px;
+    height: 270px;
+}
+.book2 img{
+    height: 230px;
+    width: 180px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.desc2{
+    color: #fdfef9;
+    text-align: justify;
+    margin-right: 20px;
+}
+.BOOKB{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.book3{
+    display: flex;
+    background-color: #9fac96;
+    width: 45%;
+    margin-left: 15px;
+    height: 270px;   
+}
+.book3 img{
+    height: 230px;
+    width: 180px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.desc3{
+    color: #eee5d3;
+    text-align: justify;
+    margin-left: 20px;
+}
+.book4{
+    display: flex;
+    background-color: #e8eb95;
+    width: 45%;
+    margin-left: 15px;
+    height: 270px;
+}
+.book4 img{
+    height: 230px;
+    width: 180px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.desc4{
+    color: #7ba994;
+    text-align: justify;
+    margin-right: 20px;
+}
+.awards{
+    display: flex;
+}
+.awards img{
+   
+    height: 150px;
+}
+.awd{
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    background-color: #140e00;
+    background-size: 100% 200%;
+    border-radius: 10%;
+}
+.awd:hover{
+    background-position: right bottom;
+    box-shadow: 2px 3px 5px black;
+    border: #242209;
+}
+.awd img{
+    width: 90%;
+    border-radius: 15%;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.awd h2{
+    color: aliceblue;
+    margin: 15px;
+    text-align: center;
+    text-shadow: 3px 4px 5px black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+.awd h3{
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 3px 4px 5px black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: 500;
+}
+#achievements h1{
+    color:black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding: 15px;
+    text-shadow: 2px 4px 5px gray;
+}
+form{
+    width: 450px;
+    margin-left: 400px;
+}
+form{
+    width: 450px;
+    margin-left: 400px;
+    border-style: outset;
+    border: 3px outset black;
+}
+.input{
+    width: 95%;
+    margin: 10px;
+}
+button{
+    color: white;
+    background-color: rgb(9, 9, 9);
+}
+#contact h1{
+    color:black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    padding: 15px;
+    text-shadow: 2px 4px 5px gray;
+
+}
+footer{
+    margin-top: 40px;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
